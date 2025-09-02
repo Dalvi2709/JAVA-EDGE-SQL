@@ -32,7 +32,7 @@ student1.id = student2.id;
 //left join
 - select * from student1 LEFT JOIN student2 ON student1.id = student2.id;
 
-
+ 
 //right join
 - select * from student1 RIGHT JOIN student2 ON student1.id = student2.id;
 
