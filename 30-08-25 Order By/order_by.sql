@@ -1,4 +1,4 @@
-//order by
+//order by 
 - create table employee(id int(10), name varchar(100));
 - insert into employee(id,name)values(1,'abc'),(3,'pqr'),(2,'xyz'),(4,'lmn');
 - select * from employee;
