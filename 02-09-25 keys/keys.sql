@@ -12,7 +12,6 @@
 
 
 
-
 //foreign key
 - create table student1(id int(255), name varchar(100), PRIMARY KEY(id));
 - create table student2(sid int(255), address varchar(100), PRIMARY KEY(sid), FOREIGN KEY(sid) REFERENCES student1(id));
