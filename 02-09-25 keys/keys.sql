@@ -50,7 +50,7 @@ student1               student2
 
 
 
-//composite key
+- composite key
 - create table person(email varchar(100), contact varchar(100),PRIMARY KEY(email,contact));
 
 - insert into person values("abc@gmail.com","9876543210");
