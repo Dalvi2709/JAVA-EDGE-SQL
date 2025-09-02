@@ -43,6 +43,7 @@ UNION
 select * from student1 RIGHT JOIN student2 ON student1.id = student2.id;
 
 
+
 //cross join
 - select * from student1 CROSS JOIN student2;
 - select * from student1, student2;
