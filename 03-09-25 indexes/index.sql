@@ -9,5 +9,8 @@ insert into person(id,name) values (2,"abc");    2  abc
 insert into person(id,name) values (3,"pqr");    3  pqr
 
 create index sort_name ON person(name ASC);
+create unique index unique_id ON person(id);
+insert into person(id,name) values (3,"pqr"); /*Duplicate entry '3' for key 'person.unique_id'*/
+insert into person(id,name) values (4,"pqr");    
 
 select name from person;
