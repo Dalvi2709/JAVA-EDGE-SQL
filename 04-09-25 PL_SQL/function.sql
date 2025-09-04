@@ -34,3 +34,16 @@ BEGIN
   END IF;
 RETURN result;
 END
+
+/*greater number*/
+CREATE FUNCTION `greaternumber` (num1 int, num2 int)
+RETURNS VARCHAR(100)
+BEGIN
+  DECLARE result varchar(100);
+  IF num1 > num2  THEN 
+    SET result = "Number1 is greater";
+  ELSE
+    SET result = "Number2 is greater";
+  END IF;
+RETURN result;
+END
