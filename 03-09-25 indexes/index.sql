@@ -23,3 +23,6 @@ create table books(title varchar(255), content varchar(255), fulltext(title,cont
 insert into books(title,content) values ("shyamchi aai","aai"),("chava","maharaj");
 
 select * from books where match(title,content) against("aai");
+
+/*geometric location*/
+create table ride_booking(name varchar(100), contact varchar(100), location GEOMETRY NOT NULL, SPATIAL INDEX(location));
