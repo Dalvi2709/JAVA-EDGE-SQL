@@ -4,7 +4,6 @@ BEGIN
 insert into user_register(id,name) values (p_id,p_name);
 END
 
-
 call insert_user(101,"raju");
 
 
