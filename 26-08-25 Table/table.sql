@@ -47,4 +47,3 @@ User address varchar (150)
 
 -- SQL ALTER TABLE
 ALTER TABLE table_name ADD column_name column-definition;  
-
