@@ -20,4 +20,3 @@ EXEC sp_renamedb'old_database_name' , 'new_database_name'
 
 -- SQL SELECT Database to perform some operations on tables, views, and indexes on the specific existing database
 USE database_name;   
-
