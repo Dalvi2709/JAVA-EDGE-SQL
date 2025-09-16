@@ -10,4 +10,3 @@ SELECT * FROM employee_details;  /*read*/
 UPDATE employee_details set esalary=60000 WHERE eid=1;  /*update alter*/
 
 DELETE employee_details; /*delete*/
-
