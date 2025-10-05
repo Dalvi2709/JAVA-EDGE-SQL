@@ -15,4 +15,3 @@ SELECT SUM(coalesce(total_amount,0)) as total_revenue FROM orders;
 /*Question 4*/
 SELECT SUM(coalesce(total_amount,0)) - SUM(coalesce(discount,0))  as net_revenue FROM orders;
 
-
