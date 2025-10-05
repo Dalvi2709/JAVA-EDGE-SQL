@@ -26,7 +26,6 @@
 
 
 
-
 //count()
 - select COUNT(name) from employee;  //column
 
